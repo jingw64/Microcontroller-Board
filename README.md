@@ -32,6 +32,11 @@ This is the first microcontroller board that I'll be making. As of writing this,
 
 ## References
 
+### Cheat Sheets
+
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Git Cheat Sheet](https://jan-krueger.net/wordpress/wp-content/uploads/2007/09/git-cheat-sheet.pdf)
+
 ### Guides
 
 - [Designing a Microcontroller Development Board](https://www.instructables.com/Designing-a-Microcontroller-Development-Board/) - jp_tan
