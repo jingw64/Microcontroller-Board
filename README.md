@@ -17,6 +17,10 @@ In this project, I will be trying to make a microcontroller board from scratch. 
 
 ## Projects
 
+### [First Board](./First_Board/)
+
+This is the first microcontroller board that I'll be making. As of writing this, I don't really know what I want to do for it yet, other than keeping it simple and beginner friendly. Will update this after I figure things out.
+
 ## Tools
 
 ### Softwares
