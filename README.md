@@ -15,6 +15,17 @@ In this project, I will be trying to make a microcontroller board from scratch. 
 - I would like to completely recreate a common microcontroller at some point, like an Arduino UNO or a Raspberry Pi Pico
 - I would also like to move towards making more powerful microcontrollers at some point... but I will need to figure out what I want to use them for first
 
+## Projects
+
+## Tools
+
+### Softwares
+
+- KiCad
+  - For schematic and PCB design
+- VS Code
+  - For managing files and writing firmware
+
 ## References
 
 ### Guides
