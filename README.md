@@ -2,24 +2,29 @@
 
 ## Overview
 
-In this project, I will be trying to make a microcontroller board from scratch. I had a hard time coming up with project ideas, so I figured I might as well make something that I could use in the future once I do have something in mind. I might make more in the future, but for my very first one I will try to keep it as simple as possible.
+For this project, my goal is to learn how to design a microcontroller board. To do this, I will be splitting it up into three parts:
+
+1. Clone an already existing microcontroller
+   - This is so that I can ease into understanding how it works and what goes into the design of one, in addition to gaining familiarity with tools and terms
+2. Tweak the board to my liking
+   - Using knowledge gained from cloning the board, I want to build upon it and make it something that would better suit a specific purpose
+   - By this point, I will (hopefully) have another project idea that can use this board
+3. Make a completely custom microcontroller board (optional)
+   - I want to make something completely from scratch if I need it; completely dependent on whether or not I have another project in mind
+   - If I do end up making it I'll most likely link the other project here rather than writing separate documentation
 
 ### Goals
 
 - Learn the whole process on how to make a PCB, from component selection to layout
 - Gain exposure to writing firmware in some capacity
 - Understand terms like UART because I see it everywhere but I don't know what it means
-
-### Notes
-
-- I would like to completely recreate a common microcontroller at some point, like an Arduino UNO or a Raspberry Pi Pico
-- I would also like to move towards making more powerful microcontrollers at some point... but I will need to figure out what I want to use them for first
+- Learn how to design circuits and important concepts like pull up/down resistors
 
 ## Projects
 
-### [First Board](./First_Board/)
+### [Clone Board](./First_Board/)
 
-This is the first microcontroller board that I'll be making. As of writing this, I don't really know what I want to do for it yet, other than keeping it simple and beginner friendly. Will update this after I figure things out.
+This board will be a clone of an STM32 microcontroller board. Findings and epiphanies will be recorded here.
 
 ## Tools
 
@@ -41,4 +46,5 @@ This is the first microcontroller board that I'll be making. As of writing this,
 
 - [Designing a Microcontroller Development Board](https://www.instructables.com/Designing-a-Microcontroller-Development-Board/) - jp_tan
 - [Building a Microcontroller Board from Scratch](https://www.build-electronic-circuits.com/wp-content/uploads/2017/lm/Building-a-Microcontroller-Board-from-Scratch.pdf) - Øyvind Nydal Dahl
+- [Development Boards Explained for Makers and Beginners](https://ieeker.com/development-boards-explained-for-makers-and-beginners/) - IEEKER
   
