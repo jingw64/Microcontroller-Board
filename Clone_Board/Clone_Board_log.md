@@ -53,8 +53,8 @@ Right now, I am eyeing the STM32 (for specific families, probably the STM32F1 or
 
 #### Up Next
 
-- [ ] Reorganize and rename certain project files
-- [ ] Update readme with more clearly defined goals and ideas for project
+- [x] Reorganize and rename certain project files
+- [x] Update readme with more clearly defined goals and ideas for project
 - [ ] Find STM32 data sheets and schematics to copy
   - [ ] Figure out necessary footprints for KiCad if needed
 - [ ] Look into STM32 families and their distinct purposes
