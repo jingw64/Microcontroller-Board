@@ -22,7 +22,7 @@ For this project, my goal is to learn how to design a microcontroller board. To 
 
 ## Projects
 
-### [Clone Board](./First_Board/)
+### [Clone Board](./Clone_Board/)
 
 This board will be a clone of an STM32 microcontroller board. Findings and epiphanies will be recorded here.
 
