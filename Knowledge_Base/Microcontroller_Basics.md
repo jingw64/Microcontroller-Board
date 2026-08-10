@@ -31,4 +31,3 @@ Common for hobbyist projects. Has built in bluetooth and wifi features, and is v
 Industry standard. Very customizable: you can configure clocks, registers, interrupt priorities, etc. to your liking. All of this can be done in the CubeIDE. Seems to be very generalist (I've seen people build keyboards with it). Extensive documentation but steep learning curve. [^1]
 
 [^1]: It might be best to go with this one due to how it will get me to be more familiar with industry tools.
-
