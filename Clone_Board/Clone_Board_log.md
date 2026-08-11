@@ -34,12 +34,12 @@ I'm cooked, man.
 
 ### 08.09.2026
 
-#### Tasks Accomplished
+#### Tasks Accomplished {#2}
 
 - I looked things up pertaining to essential parts of a microcontroller board and what types of boards there are
 - Got a better idea of what I wanted to do for the project
 
-#### Thoughts
+#### Thoughts {#2}
 
 For a bit I was wondering whether or not I should make a completely custom board or if I should clone a board that's already on the market, but the more I thought about it the more I got lost because I felt that if I wanted to make a custom board, I'd need to know what I'd want it to do so I'll know what to put on it other than the absolutely essential components.
 
@@ -51,13 +51,43 @@ I've come to the conclusion that it might be better to split this project into p
 
 Right now, I am eyeing the STM32 (for specific families, probably the STM32F1 or STM32G4 for more general purpose uses; will need to look into this more). It is the industry standard and said to be the easiest MCU to get started with for embedded.
 
-#### Up Next
+#### Up Next {#2}
 
 - [x] Reorganize and rename certain project files
 - [x] Update readme with more clearly defined goals and ideas for project
-- [ ] Find STM32 data sheets and schematics to copy
+- [x] Find STM32 data sheets and schematics to copy
   - [ ] Figure out necessary footprints for KiCad if needed
-- [ ] Look into STM32 families and their distinct purposes
+- [x] Look into STM32 families and their distinct purposes
 - [ ] Look into integration of communication protocols like I2C, SPI, CAN, etc. on boards (just out of curiosity, nothing urgent)
   - [ ] Figure out if UART is a protocol or if it's some other thing because what the hecky
 - [ ] Start on the schematic
+
+---
+
+### 08.10.2026
+
+#### Tasks Accomplished {#3}
+
+- Set up a dictionary for terms because ts is getting to be too much...
+- Looked around for types of STM32 dev boards to clone, def learned a little bit
+  - Currently looking at NUCLEO-L412RB, STM32G0316-DISCO, NUCLEO-F401RE, STM32F401 "Black Pill"
+- Figured out where to go to get dev board data sheets/schematics, same for raw chips
+- Found out you can use Latex commands in markdown files $\int_{T_i}^{T_f}\frac{C_v}{T}dT$
+
+#### Thoughts {#3}
+
+This kinda sucks ughawfajfwpw
+
+I want to pick a dev board that's not too complicated (which all the nucleo boards seem to not be), but the black pill needs an external hardware debugger called an ST-LINK, and when I tried to go down that rabbit hole I just got lost because there are counterfeits everywhere and a lot of the ones like the ST-LINK/V2 are supposedly outdated??? And I haven't seen anything about a V3????
+
+The G0316-DISCO on the market comes with a built in ST-LINK interface, but if I were to clone it it seems like I'll need to remove the interface from an already existing board to put onto the clone, meaning I'll have to buy another dev board with the interface (they're like upwards of $20-30 which I guess can be considered a fair price but I have no income so I want to limit costs as much as possible). I'll have to see if they have a BOM with links that I can look at or something.
+
+Anyways I think this is gonna take a lot longer than I thought it would and I'm a lil bit scared
+
+#### Up Next {#3}
+
+- [ ] Look into ST-LINK
+  - [ ] Try to see if I can purchase an interface so that I don't have to buy the product itself
+- [ ] For the love of god please let me settle with a dev board and get started on schematics I still have to figure out firmware stuff later please I'm begging
+- [ ] Define some terms in the dictionary
+- [ ] Update the overview for clone board with an accurate description and relevant links

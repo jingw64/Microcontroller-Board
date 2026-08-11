@@ -47,4 +47,4 @@ This board will be a clone of an STM32 microcontroller board. Findings and epiph
 - [Designing a Microcontroller Development Board](https://www.instructables.com/Designing-a-Microcontroller-Development-Board/) - jp_tan
 - [Building a Microcontroller Board from Scratch](https://www.build-electronic-circuits.com/wp-content/uploads/2017/lm/Building-a-Microcontroller-Board-from-Scratch.pdf) - Øyvind Nydal Dahl
 - [Development Boards Explained for Makers and Beginners](https://ieeker.com/development-boards-explained-for-makers-and-beginners/) - IEEKER
-  
+- [ESP32 Dev Board to Custom PCB in 3 Steps](https://www.youtube.com/watch?v=35jaYlZf7M0&t=919s) - Fluxbench
