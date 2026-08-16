@@ -2,10 +2,6 @@
 
 For the very first board of the project, I will be cloning a microcontroller board of my choosing to learn about the design choices behind a microcontroller, the necessary subsystems and components, and general concepts in this specific corner of ECE.
 
-## Takeaways
-
-TBD, will put in what I learned as a whole from the project here.
-
 ## Daily Log
 
 I will record what I do for this specific project, the date, and any thoughts I have here. Anything that I do/learn that I think deserves to be highlighted will have a link to that specific section.
@@ -86,8 +82,30 @@ Anyways I think this is gonna take a lot longer than I thought it would and I'm 
 
 #### Up Next {#3}
 
-- [ ] Look into ST-LINK
+- [x] Look into ST-LINK
   - [ ] Try to see if I can purchase an interface so that I don't have to buy the product itself
 - [ ] For the love of god please let me settle with a dev board and get started on schematics I still have to figure out firmware stuff later please I'm begging
-- [ ] Define some terms in the dictionary
-- [ ] Update the overview for clone board with an accurate description and relevant links
+- [x] Define some terms in the dictionary
+- [x] Update the overview for clone board with an accurate description and relevant links
+
+---
+
+### 08.12.2026
+
+#### Tasks Accomplished {#4}
+
+- Settled on STM32F401CEU6 to make black pill
+- Data sheeten readen
+- Finished wiring up decouplings for the chip itself
+- Wired up boot0 and nrst using switches, but might swap them out with buttons instead
+- Learned a bit about decoupling capacitors and pull up/down resistors yay!
+
+#### Thoughts {#4}
+
+Data sheet reading is pain
+
+#### Up Next {#4}
+
+- [ ] Add the things for USB connection next
+- [ ] Update some files
+- [ ] Look into what else I need to add to the schematic
