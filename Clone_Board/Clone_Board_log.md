@@ -74,7 +74,7 @@ Anyways I think this is gonna take a lot longer than I thought it would and I'm 
 
 - [x] Look into ST-LINK
   - [ ] Try to see if I can purchase an interface so that I don't have to buy the product itself
-- [ ] For the love of god please let me settle with a dev board and get started on schematics I still have to figure out firmware stuff later please I'm begging
+- [x] For the love of god please let me settle with a dev board and get started on schematics I still have to figure out firmware stuff later please I'm begging
 - [x] Define some terms in the dictionary
 - [x] Update the overview for clone board with an accurate description and relevant links
 
