@@ -1,5 +1,9 @@
 # Overview
 
+## Progress Log
+
+I will be updating a progress log every time I work on the project; this can be found [here](./Clone_Board_log.md).
+
 ## The Microcontroller
 
 The dev board that I've decided to move foward with is the [STM32F401 "Black Pill"](https://stm32-base.org/boards/STM32F401CCU6-WeAct-Black-Pill-V1.2.html). I wanted to do something simple, and from my online searches the dev boards with an STM32F401 chip seems to be the most beginner friendly.
