@@ -1,41 +1,33 @@
-# Clone Board
-
-For the very first board of the project, I will be cloning a microcontroller board of my choosing to learn about the design choices behind a microcontroller, the necessary subsystems and components, and general concepts in this specific corner of ECE.
-
-## Daily Log
+# Progress Log
 
 I will record what I do for this specific project, the date, and any thoughts I have here. Anything that I do/learn that I think deserves to be highlighted will have a link to that specific section.
 
----
+## 08.08.2026
 
-### 08.08.2026
-
-#### Tasks Accomplished
+### Tasks Accomplished
 
 - Figured out that I wanted to make my own microcontroller board
 - Set up a github repo and connected it to VSC for easy access and management
 - Remembered how to use git commands
 - Found a couple sources to get started on thinking about the project
 
-#### Thoughts
+### Thoughts
 
 I'm cooked, man.
 
-#### Up Next
+### Up Next
 
 - [x] Research what needs to go into a microcontroller board and write/update documentation accordingly
   - No specified goal for research for now; go wherever the rabbit hole takes me tomorrow and figure things out from there
 
----
+## 08.09.2026
 
-### 08.09.2026
-
-#### Tasks Accomplished {#2}
+### Tasks Accomplished {#2}
 
 - I looked things up pertaining to essential parts of a microcontroller board and what types of boards there are
 - Got a better idea of what I wanted to do for the project
 
-#### Thoughts {#2}
+### Thoughts {#2}
 
 For a bit I was wondering whether or not I should make a completely custom board or if I should clone a board that's already on the market, but the more I thought about it the more I got lost because I felt that if I wanted to make a custom board, I'd need to know what I'd want it to do so I'll know what to put on it other than the absolutely essential components.
 
@@ -47,7 +39,7 @@ I've come to the conclusion that it might be better to split this project into p
 
 Right now, I am eyeing the STM32 (for specific families, probably the STM32F1 or STM32G4 for more general purpose uses; will need to look into this more). It is the industry standard and said to be the easiest MCU to get started with for embedded.
 
-#### Up Next {#2}
+### Up Next {#2}
 
 - [x] Reorganize and rename certain project files
 - [x] Update readme with more clearly defined goals and ideas for project
@@ -58,11 +50,9 @@ Right now, I am eyeing the STM32 (for specific families, probably the STM32F1 or
   - [ ] Figure out if UART is a protocol or if it's some other thing because what the hecky
 - [ ] Start on the schematic
 
----
+## 08.10.2026
 
-### 08.10.2026
-
-#### Tasks Accomplished {#3}
+### Tasks Accomplished {#3}
 
 - Set up a dictionary for terms because ts is getting to be too much...
 - Looked around for types of STM32 dev boards to clone, def learned a little bit
@@ -70,7 +60,7 @@ Right now, I am eyeing the STM32 (for specific families, probably the STM32F1 or
 - Figured out where to go to get dev board data sheets/schematics, same for raw chips
 - Found out you can use Latex commands in markdown files $\int_{T_i}^{T_f}\frac{C_v}{T}dT$
 
-#### Thoughts {#3}
+### Thoughts {#3}
 
 This kinda sucks ughawfajfwpw
 
@@ -80,7 +70,7 @@ The G0316-DISCO on the market comes with a built in ST-LINK interface, but if I 
 
 Anyways I think this is gonna take a lot longer than I thought it would and I'm a lil bit scared
 
-#### Up Next {#3}
+### Up Next {#3}
 
 - [x] Look into ST-LINK
   - [ ] Try to see if I can purchase an interface so that I don't have to buy the product itself
@@ -88,11 +78,9 @@ Anyways I think this is gonna take a lot longer than I thought it would and I'm 
 - [x] Define some terms in the dictionary
 - [x] Update the overview for clone board with an accurate description and relevant links
 
----
+## 08.16.2026
 
-### 08.16.2026
-
-#### Tasks Accomplished {#4}
+### Tasks Accomplished {#4}
 
 - Settled on STM32F401CEU6 to make black pill
 - Data sheeten readen
@@ -102,11 +90,11 @@ Anyways I think this is gonna take a lot longer than I thought it would and I'm 
 
 *Note: Most of this was done on 08.12.2026. File updating and organization was done on 08.15/08.16 (it's currently 1:25 am)*
 
-#### Thoughts {#4}
+### Thoughts {#4}
 
 Data sheet reading is pain
 
-#### Up Next {#4}
+### Up Next {#4}
 
 - [ ] Add the things for USB connection next
 - [x] Update some files

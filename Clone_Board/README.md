@@ -2,7 +2,7 @@
 
 ## Progress Log
 
-I will be updating a progress log every time I work on the project; this can be found [here](./Clone_Board_log.md).
+For a deeper look at the process of my undertaking on this project, take a look at the [progress log](./Clone_Board_log.md).
 
 ## The Microcontroller
 
