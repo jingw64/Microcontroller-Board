@@ -90,7 +90,7 @@ Anyways I think this is gonna take a lot longer than I thought it would and I'm 
 
 ---
 
-### 08.12.2026
+### 08.16.2026
 
 #### Tasks Accomplished {#4}
 
@@ -100,6 +100,8 @@ Anyways I think this is gonna take a lot longer than I thought it would and I'm 
 - Wired up boot0 and nrst using switches, but might swap them out with buttons instead
 - Learned a bit about decoupling capacitors and pull up/down resistors yay!
 
+*Note: Most of this was done on 08.12.2026. File updating and organization was done on 08.15/08.16 (it's currently 1:25 am)*
+
 #### Thoughts {#4}
 
 Data sheet reading is pain
@@ -107,5 +109,5 @@ Data sheet reading is pain
 #### Up Next {#4}
 
 - [ ] Add the things for USB connection next
-- [ ] Update some files
+- [x] Update some files
 - [ ] Look into what else I need to add to the schematic
