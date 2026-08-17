@@ -78,7 +78,7 @@ Anyways I think this is gonna take a lot longer than I thought it would and I'm 
 - [x] Define some terms in the dictionary
 - [x] Update the overview for clone board with an accurate description and relevant links
 
-## 08.16.2026
+## 08.15.2026
 
 ### Tasks Accomplished {#4}
 
@@ -96,6 +96,31 @@ Data sheet reading is pain
 
 ### Up Next {#4}
 
-- [ ] Add the things for USB connection next
+- [x] Add the things for USB connection next
 - [x] Update some files
-- [ ] Look into what else I need to add to the schematic
+- [x] Look into what else I need to add to the schematic
+
+## 08.16.2026
+
+### Tasks Accomplished {#5}
+
+- Fixed Boot0 and NRST pin protection wiring
+- Added USB receptacle and wired a couple pins
+- Figured out how to wire up USB receptacle if you board is meant to be bus powered
+- Found a big zip file of type C USB data sheets... not sure what to do with them so will upload them into the repo for now
+
+### Thoughts {#5}
+
+Data sheet reading has gotten a little better, it doesn't feel like too much of a slog anymore and I more or less am better at navigating it now.
+
+Adding the USB interface has been a big pain though, after settling on a USB receptacle for the board I couldn't really find the data sheet for it? The one linked in Mouser is just working drawings of the component which isn't really helpful. I ended up having to look up a couple things and watched a video of a guy putting together a microcontroller schematic and followed along with what he did for the USB interface. The video is [Design your first microcontroller circuit in 10 minutes](https://www.youtube.com/watch?v=AaEPY4PrPFY).
+
+After a lot of googling I've figured out that, for the STM32F401, if you're purely powering it off of a USB then you don't need to use the VBUS pin. However, if I also want it to be powered through a dedicated 3.3V or 5V pin then I can't leave it floating or repurpose it as a GPIO pin. I'll need to look into how to wire up VBUS to fulfill both.
+
+### Up Next {#5}
+
+- [ ] Look deeper into how VBUS on the chip works and how to make it so board can be powered off USB and dedicated power pin
+- [ ] Add LDO
+- [ ] Add indicator LEDs
+- [ ] Add crystal oscillators
+  

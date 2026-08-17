@@ -32,7 +32,7 @@ What I would have to implement in the schematics/layout:
 
 - External high and low speed crystal for timing
 - USB connector
-- Some form of user interface and control, such as buttons
+- Some form of user interface and control, such as buttons and LEDs
 - Power regulation
 
 ## Takeaways
